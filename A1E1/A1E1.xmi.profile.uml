@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile name="A1E1_profile" xmi:id="iweboa6GAqHSAQwR_profile" xmi:version="2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<packageImport xmi:id="iweboa6GAqHSAQwR_profile_UMLMetaModel">
+		<importedPackage href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0" xmi:type="uml:Model"/>
+	</packageImport>
+	<eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="iweboa6GAqHSAQwR_profile_definition">
+		<contents name="A1E1_profile" nsPrefix="A1E1_profile" nsURI="http:///schemas/A1E1_profile/0" xmi:id="iweboa6GAqHSAQwR_content" xmi:type="ecore:EPackage">
+			<eClassifiers name="UseCase" xmi:id="yYeboa6GAqHSAQ4z_classifier" xmi:type="ecore:EClass">
+				<eAnnotations references="yYeboa6GAqHSAQ4z" source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="yYeboa6GAqHSAQ4z_annotation"/>
+				<eStructuralFeatures lowerBound="1" name="base_UseCase" ordered="false" xmi:id="yYeboa6GAqHSAQ4z_structuralFeature" xmi:type="ecore:EReference">
+					<eType href="http://www.eclipse.org/uml2/2.0.0/UML#//UseCase" xmi:type="ecore:EClass"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="Level" ordered="false" xmi:id="6Yeboa6GAqHSAQ41_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="Complexity" ordered="false" xmi:id="6Yeboa6GAqHSAQ42_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="Use Case Status" ordered="false" xmi:id="GYeboa6GAqHSAQ43_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="Implementation Status" ordered="false" xmi:id="mYeboa6GAqHSAQ44_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="Preconditions" ordered="false" xmi:id="mYeboa6GAqHSAQ45_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="Post-conditions" ordered="false" xmi:id="WYeboa6GAqHSAQ46_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="Author" ordered="false" xmi:id="WYeboa6GAqHSAQ47_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="Assumptions" ordered="false" xmi:id="2Yeboa6GAqHSAQ48_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+			</eClassifiers>
+			<eClassifiers name="CaseStory" xmi:id="pYeboa6GAqHSAQ49_classifier" xmi:type="ecore:EClass">
+				<eAnnotations references="pYeboa6GAqHSAQ49" source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="pYeboa6GAqHSAQ49_annotation"/>
+				<eStructuralFeatures lowerBound="1" name="base_UseCase" ordered="false" xmi:id="pYeboa6GAqHSAQ49_structuralFeature" xmi:type="ecore:EReference">
+					<eType href="http://www.eclipse.org/uml2/2.0.0/UML#//UseCase" xmi:type="ecore:EClass"/>
+				</eStructuralFeatures>
+			</eClassifiers>
+			<eClassifiers name="Context" xmi:id="DYeboa6GAqHSAQ4._classifier" xmi:type="ecore:EClass">
+				<eAnnotations references="DYeboa6GAqHSAQ4." source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="DYeboa6GAqHSAQ4._annotation"/>
+				<eStructuralFeatures lowerBound="1" name="base_UseCase" ordered="false" xmi:id="DYeboa6GAqHSAQ4._structuralFeature" xmi:type="ecore:EReference">
+					<eType href="http://www.eclipse.org/uml2/2.0.0/UML#//UseCase" xmi:type="ecore:EClass"/>
+				</eStructuralFeatures>
+			</eClassifiers>
+			<eClassifiers name="Include" xmi:id="adWXoa6GAqHSARLW_classifier" xmi:type="ecore:EClass">
+				<eAnnotations references="adWXoa6GAqHSARLW" source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="adWXoa6GAqHSARLW_annotation"/>
+				<eStructuralFeatures lowerBound="1" name="base_Include" ordered="false" xmi:id="adWXoa6GAqHSARLW_structuralFeature" xmi:type="ecore:EReference">
+					<eType href="http://www.eclipse.org/uml2/2.0.0/UML#//Include" xmi:type="ecore:EClass"/>
+				</eStructuralFeatures>
+			</eClassifiers>
+			<eClassifiers name="Extend" xmi:id="8NuXoa6GAqHSARLf_classifier" xmi:type="ecore:EClass">
+				<eAnnotations references="8NuXoa6GAqHSARLf" source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="8NuXoa6GAqHSARLf_annotation"/>
+				<eStructuralFeatures lowerBound="1" name="base_Extend" ordered="false" xmi:id="8NuXoa6GAqHSARLf_structuralFeature" xmi:type="ecore:EReference">
+					<eType href="http://www.eclipse.org/uml2/2.0.0/UML#//Extend" xmi:type="ecore:EClass"/>
+				</eStructuralFeatures>
+			</eClassifiers>
+		</contents>
+	</eAnnotations>
+	<packagedElement name="UseCase" xmi:id="yYeboa6GAqHSAQ4z" xmi:type="uml:Stereotype">
+		<ownedAttribute association="yYeboa6GAqHSAQ4z_extension" name="base_UseCase" xmi:id="yYeboa6GAqHSAQ4z_to">
+			<type href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase" xmi:type="uml:Class"/>
+		</ownedAttribute>
+		<ownedAttribute name="Level" xmi:id="6Yeboa6GAqHSAQ41">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="2"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="Complexity" xmi:id="6Yeboa6GAqHSAQ42">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="2"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="Use Case Status" xmi:id="GYeboa6GAqHSAQ43">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="2"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="Implementation Status" xmi:id="mYeboa6GAqHSAQ44">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="2"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="Preconditions" xmi:id="mYeboa6GAqHSAQ45">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="4"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="Post-conditions" xmi:id="WYeboa6GAqHSAQ46">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="4"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="Author" xmi:id="WYeboa6GAqHSAQ47">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="0"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="Assumptions" xmi:id="2Yeboa6GAqHSAQ48">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="4"/>
+			</xmi:Extension>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement memberEnd="yYeboa6GAqHSAQ4z_from yYeboa6GAqHSAQ4z_to" name="UseCase_UseCase" xmi:id="yYeboa6GAqHSAQ4z_extension" xmi:type="uml:Extension">
+		<ownedEnd aggregation="composite" association="yYeboa6GAqHSAQ4z_extension" type="yYeboa6GAqHSAQ4z" xmi:id="yYeboa6GAqHSAQ4z_from" xmi:type="uml:ExtensionEnd"/>
+	</packagedElement>
+	<packagedElement name="Case Story" xmi:id="pYeboa6GAqHSAQ49" xmi:type="uml:Stereotype">
+		<ownedAttribute association="pYeboa6GAqHSAQ49_extension" name="base_UseCase" xmi:id="pYeboa6GAqHSAQ49_to">
+			<type href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase" xmi:type="uml:Class"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement memberEnd="pYeboa6GAqHSAQ49_from pYeboa6GAqHSAQ49_to" name="UseCase_CaseStory" xmi:id="pYeboa6GAqHSAQ49_extension" xmi:type="uml:Extension">
+		<ownedEnd aggregation="composite" association="pYeboa6GAqHSAQ49_extension" type="pYeboa6GAqHSAQ49" xmi:id="pYeboa6GAqHSAQ49_from" xmi:type="uml:ExtensionEnd"/>
+	</packagedElement>
+	<packagedElement name="Context" xmi:id="DYeboa6GAqHSAQ4." xmi:type="uml:Stereotype">
+		<ownedAttribute association="DYeboa6GAqHSAQ4._extension" name="base_UseCase" xmi:id="DYeboa6GAqHSAQ4._to">
+			<type href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase" xmi:type="uml:Class"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement memberEnd="DYeboa6GAqHSAQ4._from DYeboa6GAqHSAQ4._to" name="UseCase_Context" xmi:id="DYeboa6GAqHSAQ4._extension" xmi:type="uml:Extension">
+		<ownedEnd aggregation="composite" association="DYeboa6GAqHSAQ4._extension" type="DYeboa6GAqHSAQ4." xmi:id="DYeboa6GAqHSAQ4._from" xmi:type="uml:ExtensionEnd"/>
+	</packagedElement>
+	<packagedElement name="Include" xmi:id="adWXoa6GAqHSARLW" xmi:type="uml:Stereotype">
+		<ownedAttribute association="adWXoa6GAqHSARLW_extension" name="base_Include" xmi:id="adWXoa6GAqHSARLW_to">
+			<type href="pathmap://UML_METAMODELS/UML.metamodel.uml#Include" xmi:type="uml:Class"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement memberEnd="adWXoa6GAqHSARLW_from adWXoa6GAqHSARLW_to" name="Include_Include" xmi:id="adWXoa6GAqHSARLW_extension" xmi:type="uml:Extension">
+		<ownedEnd aggregation="composite" association="adWXoa6GAqHSARLW_extension" type="adWXoa6GAqHSARLW" xmi:id="adWXoa6GAqHSARLW_from" xmi:type="uml:ExtensionEnd"/>
+	</packagedElement>
+	<packagedElement name="Extend" xmi:id="8NuXoa6GAqHSARLf" xmi:type="uml:Stereotype">
+		<ownedAttribute association="8NuXoa6GAqHSARLf_extension" name="base_Extend" xmi:id="8NuXoa6GAqHSARLf_to">
+			<type href="pathmap://UML_METAMODELS/UML.metamodel.uml#Extend" xmi:type="uml:Class"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement memberEnd="8NuXoa6GAqHSARLf_from 8NuXoa6GAqHSARLf_to" name="Extend_Extend" xmi:id="8NuXoa6GAqHSARLf_extension" xmi:type="uml:Extension">
+		<ownedEnd aggregation="composite" association="8NuXoa6GAqHSARLf_extension" type="8NuXoa6GAqHSARLf" xmi:id="8NuXoa6GAqHSARLf_from" xmi:type="uml:ExtensionEnd"/>
+	</packagedElement>
+</uml:Profile>
